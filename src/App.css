@@ -1,0 +1,79 @@
+@import '~antd/dist/antd.css';
+
+.body {
+  margin: 0;
+  background-color: #000;
+}
+
+.home-nav {
+  width: 100%;
+  height: 100px;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.home-link-short {
+  display: none;
+}
+
+.home-link-complete a {
+  margin: 0 8px;
+}
+
+.home-link-short a {
+  margin: 0 8px;
+}
+
+.home-game {
+  height: calc(100vh - 100px);
+  color: #ccc;
+}
+
+.home-footer {
+  background-color: #ccc;
+}
+
+/* Screen drop below 800px */
+@media screen and (max-width: 800px) {
+  .home-link-complete {
+    display: none;
+  }
+  .home-link-short {
+    display: block;
+  }
+  .home-nav {
+    height: 60px;
+  }
+}
+
+/* Screen drop below 1400px */
+@media screen and (min-width: 801px) and (max-width: 1400px) {
+  .home-link-complete {
+    display: none;
+  }
+  .home-link-short {
+    display: block;
+  }
+  .home-nav {
+    height: 80px;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

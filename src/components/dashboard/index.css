@@ -1,0 +1,40 @@
+.home-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-container {
+    height: 50%;
+    display: flex;
+}
+
+.top-left {
+    flex: 1;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+.top-right {
+    flex: 1;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+.bottom-container {
+    height: 50%;
+    display: flex;
+}
+
+.bottom-left {
+    flex: 1;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+.bottom-right {
+    flex: 1;
+    border: 1px solid #fff;
+    text-align: center;
+}

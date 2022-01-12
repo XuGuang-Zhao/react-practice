@@ -1,0 +1,47 @@
+.math-container {
+  width: 100%;
+  height: 100%;
+}
+
+.calculation{
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.number-container {
+  width: 20%;
+  height: 40%;
+  border: 1px solid #fff;
+  background-color: #abcabc;
+  color: #333;
+}
+
+.operater-container {
+  width: 20%;
+  height: 40%;
+  border: 1px solid #fff;
+  background-color: #cdbdbd;
+  color: #333;
+}
+
+.equal-container {
+  width: 20%;
+  height: 40%;
+  border: 1px solid #fff;
+  background-color: #bdabda;
+  color: #333;
+}
+
+.result-container {
+  width: 20%;
+  height: 40%;
+  border: 1px solid #fff;
+  background-color: #cbacbd;
+  color: #333;
+}
+
